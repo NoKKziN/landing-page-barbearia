@@ -1,5 +1,3 @@
-# landing page Barbearia Bozzi
-
 # Landing Page — Bozzi Barbearia
 
 Landing page responsiva para a **Bozzi Barbearia (Teresina – PI)**, com foco em apresentação da marca, serviços, tabela de preços, avaliações e contato/WhatsApp.
