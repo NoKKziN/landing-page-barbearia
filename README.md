@@ -12,6 +12,12 @@ Landing page responsiva para a **Bozzi Barbearia (Teresina – PI)**, com foco e
 
 ---
 
+## DOCs
+
+**Link do docs:** https://canva.link/6r988kk56bt5qo4
+
+---
+
 ## Tecnologias
 
 - HTML
