@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bozzi Barbearia – Teresina, PI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-logo">Bozzi<span>.</span></div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#precos">Preços</a></li>
+      <li><a href="#depoimentos">Avaliações</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5586988992255?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário." target="_blank" class="nav-cta">Agendar →</a>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio" onclick="toggleMenu()">Início</a>
+    <a href="#sobre" onclick="toggleMenu()">Sobre</a>
+    <a href="#servicos" onclick="toggleMenu()">Serviços</a>
+    <a href="#precos" onclick="toggleMenu()">Preços</a>
+    <a href="#depoimentos" onclick="toggleMenu()">Avaliações</a>
+    <a href="#contato" onclick="toggleMenu()">Contato</a>
+    <a href="https://wa.me/5586988992255" target="_blank" onclick="toggleMenu()">📲 Agendar pelo WhatsApp</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="inicio">
+    <div class="hero-bg"></div>
+    <div class="hero-lines"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-tag">✦ Barbearia Premium em Teresina – PI</div>
+        <h1>Seu estilo<br><em>começa aqui.</em></h1>
+        <p class="hero-sub">Cortes modernos, barba impecável e um ambiente pensado para quem valoriza o melhor. Na Bozzi, cada detalhe conta.</p>
+        <div class="hero-btns">
+          <a href="https://wa.me/5586988992255?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário." target="_blank" class="btn-primary">
+            📲 Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn-secondary">Ver serviços →</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">5,0</div>
+            <div class="stat-label">★ Google</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">249+</div>
+            <div class="stat-label">avaliações</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2+</div>
+            <div class="stat-label">anos</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-deco"></div>
+        <div class="hero-deco2"></div>
+        <div class="hero-card">
+          <div class="hero-card-img">
+            <svg width="100%" height="100%" viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0">
+              <defs>
+                <radialGradient id="hg" cx="60%" cy="30%" r="60%">
+                  <stop offset="0%" stop-color="#c9a84c" stop-opacity=".12"/>
+                  <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect width="400" height="500" fill="url(#hg)"/>
+              <line x1="0" y1="150" x2="400" y2="150" stroke="#c9a84c" stroke-opacity=".06" stroke-width="1"/>
+              <line x1="0" y1="300" x2="400" y2="300" stroke="#c9a84c" stroke-opacity=".06" stroke-width="1"/>
+              <circle cx="200" cy="250" r="100" fill="none" stroke="#c9a84c" stroke-opacity=".05" stroke-width="1"/>
+              <circle cx="200" cy="250" r="60" fill="none" stroke="#c9a84c" stroke-opacity=".07" stroke-width="1"/>
+              <text x="50%" y="52%" dominant-baseline="middle" text-anchor="middle" font-size="120" fill="#c9a84c" opacity=".1" font-family="serif">✂</text>
+            </svg>
+          </div>
+          <div class="hero-card-overlay">
+            <div class="hero-card-badge">⭐ Nota máxima</div>
+            <div class="hero-card-title">Bozzi Barbearia</div>
+            <div class="hero-card-sub">Av. Cel. Costa Araújo, 2255 – Fátima, Teresina</div>
+            <div class="rating-info">
+              <span class="stars-inline">★★★★★</span>
+              <span class="rating-text">5,0 · 249 avaliações no Google</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="sobre-grid">
+      <div class="sobre-img-wrap">
+        <div class="sobre-img">
+          <svg width="100%" height="100%" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" style="position:absolute;inset:0">
+            <defs>
+              <radialGradient id="sg" cx="50%" cy="40%" r="60%">
+                <stop offset="0%" stop-color="#c9a84c" stop-opacity=".1"/>
+                <stop offset="100%" stop-color="#111" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="300" height="400" fill="url(#sg)"/>
+            <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-size="80" fill="#c9a84c" opacity=".08">💈</text>
+            <text x="50%" y="62%" dominant-baseline="middle" text-anchor="middle" font-size="14" fill="#c9a84c" opacity=".15" font-family="serif" letter-spacing="3">BOZZI</text>
+          </svg>
+        </div>
+        <div class="sobre-badge">
+          <span class="num">2+</span>
+          <span class="label">Anos de excelência</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="section-tag">Quem somos</div>
+        <h2>Mais que uma<br><span>barbearia.</span></h2>
+        <div class="divider"></div>
+        <p class="section-desc">A Bozzi Barbearia nasceu com um propósito claro: elevar o padrão do cuidado masculino em Teresina. Combinamos técnica, ambiente acolhedor e atendimento diferenciado para que cada visita seja uma experiência completa.</p>
+        <p style="color:var(--gray);font-size:.88rem;line-height:1.7;margin-top:1rem;">Localizada na Av. Cel. Costa Araújo, no bairro Fátima, a Bozzi se tornou referência na cidade — com nota 5,0 no Google e centenas de clientes satisfeitos. Aqui, você encontra corte, barba, combos e até um espaço de cafeteria para relaxar enquanto espera.</p>
+        <div class="sobre-features">
+          <div class="feature-item">
+            <div class="feature-icon">✂️</div>
+            <div class="feature-text">
+              <h4>Profissionais especializados</h4>
+              <p>Barbeiros experientes e apaixonados pelo que fazem, sempre atualizados nas tendências.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🏆</div>
+            <div class="feature-text">
+              <h4>Nota máxima no Google</h4>
+              <p>5,0 com mais de 249 avaliações — a confiança dos clientes fala por si.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">☕</div>
+            <div class="feature-text">
+              <h4>Ambiente premium & cafeteria</h4>
+              <p>Um espaço aconchegante com drinks, tábua de frios e muito estilo enquanto você aguarda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="servicos-header reveal">
+      <div class="section-tag">O que oferecemos</div>
+      <h2>Nossos <span>serviços</span></h2>
+      <p class="section-desc">Do corte clássico ao combo completo — tudo pensado para você sair impecável.</p>
+    </div>
+    <div class="servicos-grid">
+      <div class="servico-card reveal">
+        <div class="servico-icon">✂️</div>
+        <div class="servico-name">Corte Masculino</div>
+        <p class="servico-desc">Corte moderno ou clássico, executado com precisão e técnica. Tesoura, máquina ou degradê — do seu jeito.</p>
+        <div class="servico-price">A partir de <span>R$ 35</span></div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:.1s">
+        <div class="servico-popular">🔥 Popular</div>
+        <div class="servico-icon">🪒</div>
+        <div class="servico-name">Barba</div>
+        <p class="servico-desc">Modelagem, acabamento e hidratação com produtos premium. Barba alinhada e pele cuidada.</p>
+        <div class="servico-price">A partir de <span>R$ 25</span></div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:.2s">
+        <div class="servico-icon">💈</div>
+        <div class="servico-name">Barboterapia</div>
+        <p class="servico-desc">Tratamento especial para a barba com vapor quente, creme e navalha — a experiência definitiva.</p>
+        <div class="servico-price">A partir de <span>R$ 35</span></div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:.3s">
+        <div class="servico-popular">⭐ Recomendado</div>
+        <div class="servico-icon">💎</div>
+        <div class="servico-name">Combo Completo</div>
+        <p class="servico-desc">Corte + barba + acabamento. O pacote ideal para sair renovado do zero à raiz.</p>
+        <div class="servico-price">A partir de <span>R$ 55</span></div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:.4s">
+        <div class="servico-icon">👶</div>
+        <div class="servico-name">Corte Infantil</div>
+        <p class="servico-desc">Cuidado especial para os pequenos, com paciência e técnica adaptada para cada idade.</p>
+        <div class="servico-price">A partir de <span>R$ 30</span></div>
+      </div>
+      <div class="servico-card reveal" style="transition-delay:.5s">
+        <div class="servico-icon">🦶</div>
+        <div class="servico-name">Podologia</div>
+        <p class="servico-desc">Cuidado completo para os pés, realizado por profissional especializado no espaço da Bozzi.</p>
+        <div class="servico-price">A consultar</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PREÇOS -->
+  <section id="precos">
+    <div class="precos-inner">
+      <div class="precos-header reveal">
+        <div class="section-tag">Transparência</div>
+        <h2>Tabela de <span>preços</span></h2>
+        <p class="section-desc" style="margin:1rem auto 0">Sem surpresas. Valores claros para você se planejar.</p>
+      </div>
+      <div class="preco-table reveal">
+        <div class="preco-row header-row">
+          <span>Serviço</span><span>Valor</span>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Corte Masculino</div><div class="preco-desc">Tesoura, máquina ou degradê</div></div>
+          <div class="preco-val">R$ 35</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Corte Navalhado</div><div class="preco-desc">Com acabamento na navalha</div></div>
+          <div class="preco-val">R$ 40</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Barba</div><div class="preco-desc">Modelagem e acabamento</div></div>
+          <div class="preco-val">R$ 25</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Barboterapia</div><div class="preco-desc">Tratamento completo com vapor</div></div>
+          <div class="preco-val">R$ 35</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Combo Corte + Barba <span class="preco-badge-combo">Econômico</span></div><div class="preco-desc">Os dois serviços juntos</div></div>
+          <div class="preco-val">R$ 55</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Combo Completo Premium <span class="preco-badge-combo">Best</span></div><div class="preco-desc">Corte + Barboterapia + Acabamento</div></div>
+          <div class="preco-val">R$ 70</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Corte Infantil</div><div class="preco-desc">Até 12 anos</div></div>
+          <div class="preco-val">R$ 30</div>
+        </div>
+        <div class="preco-row">
+          <div><div class="preco-item">Podologia</div><div class="preco-desc">Consulte disponibilidade</div></div>
+          <div class="preco-val">A consultar</div>
+        </div>
+      </div>
+      <div class="horarios-box reveal">
+        <div class="horario-item">
+          <div class="horario-dot"></div>
+          <div class="horario-text"><strong>Segunda a Sexta</strong><br>9h às 20h</div>
+        </div>
+        <div class="horario-item">
+          <div class="horario-dot"></div>
+          <div class="horario-text"><strong>Sábado</strong><br>9h às 18h</div>
+        </div>
+        <div class="horario-item">
+          <div class="horario-dot" style="background:var(--gray)"></div>
+          <div class="horario-text"><strong>Domingo</strong><br>Fechado</div>
+        </div>
+        <div class="horario-item">
+          <div class="horario-dot"></div>
+          <div class="horario-text"><strong>Agendamento</strong><br>Via WhatsApp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos">
+    <div class="dep-header reveal">
+      <div class="section-tag">Avaliações reais</div>
+      <h2>O que nossos<br><span>clientes dizem</span></h2>
+    </div>
+    <div class="dep-grid">
+      <div class="dep-card reveal">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Hoje fui atendido pelo Mathaus, já sou cliente dele há 4 anos e sempre entrega o melhor trabalho. Profissionalismo incomparável.</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Cliente fiel</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+      <div class="dep-card reveal" style="transition-delay:.1s">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Simplesmente adorei o ambiente! Atendimento impecável, espaço aconchegante e com uma energia superpositiva. Tudo feito com muito cuidado e profissionalismo. Voltarei com certeza!</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Cliente satisfeito</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+      <div class="dep-card reveal" style="transition-delay:.2s">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Vim de Belém para um evento em Teresina e tive sorte de conseguir vaga. Corte, barba com barboterapia e ainda a cafeteria com Aperol Spritz. Experiência fantástica — quando voltar, esse será o meu primeiro destino!</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Visitante de Belém</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+      <div class="dep-card reveal" style="transition-delay:.3s">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">O ambiente é muito agradável assim como os funcionários. Pretendo realizar novos cortes assim que necessário. Recomendo a todos!</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Cliente Bozzi</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+      <div class="dep-card reveal" style="transition-delay:.4s">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Corte moderno e bem executado, barba impecável. A equipe é atenciosa e o ambiente é limpo e organizado. Superou minhas expectativas!</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Cliente recorrente</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+      <div class="dep-card reveal" style="transition-delay:.5s">
+        <div class="dep-google">Google ★</div>
+        <div class="dep-quote">"</div>
+        <p class="dep-text">Lugar diferenciado em Teresina. Fui pela primeira vez a convite de um amigo e agora sou cliente fixo. Atendimento de alto nível e resultado que fala por si só.</p>
+        <div class="dep-author"><div class="dep-avatar">👤</div><div><div class="dep-name">Novo cliente fidelizado</div><div class="dep-stars">★★★★★</div></div></div>
+      </div>
+    </div>
+    <div class="overall-rating reveal">
+      <div>
+        <div class="overall-num">5,0</div>
+        <div class="overall-stars">★★★★★</div>
+      </div>
+      <div class="overall-divider"></div>
+      <div>
+        <div style="font-size:.95rem;font-weight:600;margin-bottom:.2rem;">249+ avaliações</div>
+        <div class="overall-label">no Google Maps</div>
+      </div>
+      <div class="overall-divider"></div>
+      <div style="font-size:.85rem;color:var(--gray);max-width:200px;line-height:1.5;">Melhor barbearia avaliada em Teresina – PI</div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contato-grid">
+      <div>
+        <div class="section-tag reveal">Fale conosco</div>
+        <h2 class="reveal">Agende seu<br><span>horário</span></h2>
+        <div class="divider reveal"></div>
+        <p class="section-desc reveal">Entre em contato pelo WhatsApp e garanta seu horário. Atendemos de segunda a sábado!</p>
+        <div class="contato-info">
+          <div class="info-card reveal">
+            <div class="info-icon">📍</div>
+            <div>
+              <div class="info-label">Endereço</div>
+              <div class="info-val">Av. Cel. Costa Araújo, 2255<small>Fátima, Teresina – PI, 64049-460</small></div>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon">📱</div>
+            <div>
+              <div class="info-label">WhatsApp</div>
+              <div class="info-val">(86) 98899-2255<small>Agendamentos e informações</small></div>
+            </div>
+          </div>
+          <div class="info-card reveal">
+            <div class="info-icon">🕘</div>
+            <div>
+              <div class="info-label">Horário de funcionamento</div>
+              <div class="info-val">Seg–Sex: 9h–20h · Sáb: 9h–18h<small>Domingo: fechado</small></div>
+            </div>
+          </div>
+        </div>
+        <a href="https://wa.me/5586988992255?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário%20na%20Bozzi%20Barbearia." target="_blank" class="cta-wpp reveal">
+          📲 Agendar pelo WhatsApp
+        </a>
+      </div>
+
+      <!-- MAPA CORRIGIDO: url com output=embed funciona sem API Key -->
+      <div class="reveal">
+        <div class="map-wrapper">
+          <div class="map-header">
+            <div class="map-dot"></div>
+            <span class="map-title">Bozzi Barbearia — Teresina, PI</span>
+          </div>
+          <iframe
+            src="https://maps.google.com/maps?q=Bozzi+Barbearia,+Av.+Cel.+Costa+Ara%C3%BAjo,+2255,+F%C3%A1tima,+Teresina+-+PI&output=embed&hl=pt-BR&z=16"
+            width="100%"
+            height="360"
+            style="border:0;display:block;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Bozzi Barbearia no Google Maps"
+          ></iframe>
+        </div>
+        <a href="https://www.google.com/maps/place/Bozzi+Barbearia/@-5.0666483,-42.7844581,17z" target="_blank" class="map-link">
+          📍 Ver no Google Maps →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">Bozzi<span>.</span></div>
+        <p class="footer-desc">Barbearia premium em Teresina – PI. Cortes modernos, barba impecável e ambiente aconchegante. O lugar certo para quem valoriza o melhor.</p>
+        <div class="footer-social">
+          <a href="https://instagram.com/bozzibarbearia" target="_blank" class="social-btn" title="Instagram">📸</a>
+          <a href="https://wa.me/5586988992255" target="_blank" class="social-btn" title="WhatsApp">💬</a>
+          <a href="https://www.google.com/maps/place/Bozzi+Barbearia" target="_blank" class="social-btn" title="Google">📍</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-h">Navegação</div>
+        <div class="footer-links">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre nós</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#precos">Preços</a>
+          <a href="#depoimentos">Avaliações</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-h">Serviços</div>
+        <div class="footer-links">
+          <a href="#servicos">Corte Masculino</a>
+          <a href="#servicos">Barba</a>
+          <a href="#servicos">Barboterapia</a>
+          <a href="#servicos">Combo Completo</a>
+          <a href="#servicos">Corte Infantil</a>
+          <a href="#servicos">Podologia</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 <span>Bozzi Barbearia</span>. Todos os direitos reservados.</span>
+      <span>Av. Cel. Costa Araújo, 2255 – Fátima, Teresina – PI</span>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FAB -->
+  <a class="wpp-fab" href="https://wa.me/5586988992255?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20horário%20na%20Bozzi%20Barbearia." target="_blank" title="Agendar pelo WhatsApp">
+    💬
+  </a>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+    document.addEventListener('click', function(e) {
+      const menu = document.getElementById('mobileMenu');
+      const ham = document.querySelector('.hamburger');
+      if (!menu.contains(e.target) && !ham.contains(e.target)) {
+        menu.classList.remove('open');
+      }
+    });
+
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    revealEls.forEach(el => observer.observe(el));
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 100) current = s.getAttribute('id');
+      });
+      navLinks.forEach(a => {
+        a.style.color = a.getAttribute('href') === '#' + current ? 'var(--gold)' : '';
+      });
+    });
+  </script>
+</body>
+</html>
